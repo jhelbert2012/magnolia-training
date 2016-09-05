@@ -1,0 +1,14 @@
+form:
+  tabs:
+    - name: tabMain
+      label: Settings
+      fields:
+        - name: albumPath
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Album Path
+          appName: pages
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

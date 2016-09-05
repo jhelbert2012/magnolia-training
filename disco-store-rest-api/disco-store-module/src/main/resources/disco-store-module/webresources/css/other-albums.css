@@ -1,0 +1,129 @@
+.center {
+  margin: 0 auto;
+}
+.general-margin {
+  margin: 0 3.125%;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* 
+    Document   : other-albums
+    Created on : 11/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for Other Albums Sections Block - Disco Store
+        */
+.list-albums {
+  padding-top: 2px;
+  text-align: left;
+  margin: 0 3.125%;
+}
+.list-albums header h2 {
+  color: #999999;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.list-albums ul {
+  margin: 0;
+  padding: 0;
+}
+.list-albums .other-album-grid {
+  background: #bbbbbb;
+  border: #999999 solid 1px;
+  color: #ffffff;
+  height: 310px;
+  margin: 0 0 12px 0;
+  text-align: center;
+  width: 32.291667%;
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.list-albums .other-album-grid img {
+  max-width: 290px;
+  margin: 10px auto;
+  width: 100%;
+}
+.list-albums .other-album-grid:nth-child(3n+2) {
+  margin: 0 0.8% 12px;
+}
+.list-albums .other-album-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2% 0 0;
+}
+.list-albums .pager {
+  text-align: center;
+}
+.list-albums .pager ul {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.list-albums .pager ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.list-albums .pager a {
+  color: #999999;
+  text-decoration: none;
+}
+.list-albums .pager a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+  .list-albums ul {
+    text-align: center;
+  }
+  .list-albums .other-album-grid,
+  .list-albums .other-album-grid:nth-child(3n+2) {
+    margin: 2% 1.5%;
+    width: 46%;
+  }
+  .list-albums .other-album-grid img,
+  .list-albums .other-album-grid:nth-child(3n+2) img {
+    max-width: 250px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .list-albums .other-album-grid,
+  .list-albums .other-album-grid:nth-child(3n+2) {
+    height: 100%;
+    margin: 0 auto 12px;
+    min-height: 145px;
+    width: 98.75%;
+  }
+  .list-albums .other-album-grid img,
+  .list-albums .other-album-grid:nth-child(3n+2) img {
+    float: left;
+    padding: 0 5px;
+    width: 40%;
+  }
+  .list-albums .other-album-grid div,
+  .list-albums .other-album-grid:nth-child(3n+2) div {
+    line-height: 1.5em;
+    text-align: left: ;
+  }
+}

@@ -1,0 +1,37 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.cv-form label {
+  color: #000000;
+}
+.cv-form .form_captcha_input .form_captcha_refresh {
+  clear: both;
+  float: none;
+  width: 25%;
+}
+.cv-form .form_captcha_input input[type="button"] {
+  background: url('../img/captcha.png') no-repeat left center transparent;
+}
+.cv-form .fake-file {
+  background: #ffffff;
+  border: solid 2px #000000;
+  color: #000000;
+  clear: right;
+  cursor: pointer;
+  float: right;
+  line-height: 20px;
+  margin: 0 5.208333333333% /* 15/288 */ 5%;
+  min-height: 20px;
+  padding: 0 5px;
+  text-align: center;
+  width: 25%;
+}
+.cv-form input[type="file"] {
+  display: none;
+}
+.cv-form input[type="submit"] {
+  clear: right;
+}

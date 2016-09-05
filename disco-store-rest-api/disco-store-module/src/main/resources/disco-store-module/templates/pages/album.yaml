@@ -1,0 +1,39 @@
+templateScript: /disco-store-module/templates/pages/album.ftl
+renderType: freemarker
+visible: true
+dialog: disco-store-module:pages/album
+areas:
+  logo:
+    renderType: freemarker
+    type: single
+    autoGeneration:
+      content:
+        logo:
+          nodeType: mgnl:component
+          templateId: disco-store-module:components/logo
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+  main:
+    renderType: freemarker
+    type: single
+    autoGeneration:
+      content:
+        album-month:
+          nodeType: mgnl:component
+          templateId: disco-store-module:components/album-month
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+  menu:
+    type: single
+    renderType: freemarker
+    availableComponents:
+      menu-component:
+        id: disco-store-module:components/menu-component
+  breadcrumb:
+    type: noComponent
+    renderType: freemarker
+    templateScript: /disco-store-module/templates/components/breadcrumb.ftl
+  social:
+    type: single
+    renderType: freemarker
+    availableComponents:
+      social-component:
+        id: disco-store-module:components/social-component

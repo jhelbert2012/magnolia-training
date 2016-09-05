@@ -1,0 +1,10 @@
+templateScript: /disco-store-module/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: disco-store-module:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: disco-store-module:components/dummy-component

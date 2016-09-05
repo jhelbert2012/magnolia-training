@@ -1,0 +1,4 @@
+templateScript: /disco-store-module/templates/components/menu-component.ftl
+renderType: freemarker
+visible: true
+dialog: disco-store-module:components/menu-component

@@ -1,0 +1,76 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* 
+    Document   : contact-us
+    Created on : 25/02/2013, 09:27:35 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for Contact-us section - Disco Store
+*/
+h2.contact {
+  color: #999999;
+  font-size: 1.4em;
+  margin: 0 3.125%;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.left-block {
+  margin: 0 3.125%;
+  max-width: 57.5%;
+  padding: 1.4583333%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.contact-us-form {
+  margin: 0 0 3.125%;
+  max-width: 30%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.contact-us-form .form_leftcollabel,
+.contact-us-form .form_leftcolmark {
+  float: left;
+}
+.contact-us-form input,
+.contact-us-form textarea {
+  border: none;
+  margin: 0 0 10px 0;
+  min-width:277px;
+}
+
+.contact-us-form textarea {
+  background: url('../img/area.png') no-repeat left top transparent;
+  padding: 2%;
+  min-height: 140px;
+  min-width:277px;
+  resize: none;
+}
+.contact-us-form input[type="submit"] {
+  background: url('../img/form-btn.png') no-repeat center center transparent;
+  background-size: 100%;
+  float: right;
+  margin: 0 5.208333333333% /* 15/288 */ 0 0;
+  min-height: 34px;
+  width: 27.777777777778%;
+  min-width:10px;
+}
+
+.contact-us-form input {
+  background: url('../img/text.png') no-repeat left center transparent;
+  padding: 0 2%;
+  min-height: 30px;
+
+}
+
+.contact-us-form.button input {
+  
+}

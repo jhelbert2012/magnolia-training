@@ -1,0 +1,34 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: albumTitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Album Title
+        - name: artistName
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Artist Name
+        - name: albumDescription
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Album Description
+        - name: imagePath
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Disc Image
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+        - name: playlist
+          class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+          label: Playlist
+          field:
+            name: songName
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Song Name
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -1,0 +1,4 @@
+templateScript: /disco-store-module/templates/components/album-month.ftl
+renderType: freemarker
+visible: true
+dialog: disco-store-module:components/album-month

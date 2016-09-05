@@ -1,0 +1,28 @@
+form:
+  tabs:
+    - name: tabMain
+      label: Social Component Dialog
+      fields:     
+        - name: fbBtn
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          label: Facebook
+          buttonLabel: Display Facebook?
+        - name: fbUrl
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Facebook Url
+        - name: twBtn
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          label: Twitter
+          buttonLabel: Display Twitter?
+        - name: twUrl
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Twitter Url
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    label: Save
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+    label: Cancel
+    
+    

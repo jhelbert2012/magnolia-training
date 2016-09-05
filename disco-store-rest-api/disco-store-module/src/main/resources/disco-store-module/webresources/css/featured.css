@@ -1,0 +1,200 @@
+.center {
+  margin: 0 auto;
+}
+.general-margin {
+  margin: 3.125%;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* 
+    Document   : featured
+    Created on : 8/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for Featured Album Block - Disco Store
+*/
+/* General styles */
+html {
+  font-size: 14px;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.gray-block {
+  background: #bbbbbb;
+  border: #999999 1px solid;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 93.75%;
+  border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.gray-block header {
+  padding: 1% 0 0;
+}
+.gray-block h1 {
+  font-size: 1em;
+  padding: 1.041666667% 1.041666667% 1.041666667% 2.083333333%;
+  margin: 0;
+}
+.gray-block article {
+  padding: 0 0.93875% 3%;
+  margin: 0 auto;
+  width: 67.70833333%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.gray-block article h2 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0 0 4% 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.gray-block article h3 {
+  font-size: 0.875em;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+.gray-block article img {
+  padding: 0 1.041666667%;
+  width: 44.61538462%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.gray-block article .album-data {
+  text-align: right;
+  width: 50.15384615%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.gray-block article p {
+  padding: 3.333333333% 0;
+  text-align: left;
+  margin: 0 auto;
+}
+.gray-block .featured-description {
+  height: 100%;
+  overflow: auto;
+}
+.gray-block aside {
+  border-left: 3px solid #ffffff;
+  padding-left: 1%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  width: 27.083333%;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.gray-block aside h4 {
+  margin: 0;
+  padding: 0;
+}
+.gray-block aside ul {
+  padding: 0 0 0 10%;
+}
+.gray-block aside ul li {
+  list-style-image: url('../img/bullet.png');
+}
+.featured-album {
+  height: 300px;
+}
+.featured-album .featured-description {
+  height: 125px;
+}
+.featured-album .button {
+  background: url('../img/button.png') no-repeat center center transparent;
+  background-size: 100%;
+  color: #ffffff;
+  display: block;
+  font-size: 0.714285714em;
+  height: 39px;
+  line-height: 39px;
+  margin: 3% 0 0 74%;
+  text-align: center;
+  text-decoration: none;
+  width: 26.68711656%;
+}
+.featured-album aside {
+  height: 223px;
+}
+/* Tablet (portrait and landscape) ----------- */
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+  .gray-block article,
+  .gray-block aside {
+    display: block;
+    width: 90%;
+  }
+  .gray-block article img {
+    width: 40%;
+  }
+  .gray-block article .album-data {
+    width: 57%;
+  }
+  .gray-block aside {
+    border: none;
+    height: 120px;
+  }
+  .featured-album {
+    height: 420px;
+  }
+  .featured-album .button {
+    width: 15%;
+    margin: 2% 0 0 82%;
+  }
+}
+/* Smart-phone (portrait and landscape) ----------- */
+@media only screen and (max-width: 490px) {
+  .gray-block article {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  .gray-block article img {
+    margin: 6px auto;
+    width: 70%;
+  }
+  .gray-block article .album-data {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .gray-block article .album-data h2 {
+    font-size: 1.2em;
+  }
+  .gray-block article .album-data h2,
+  .gray-block article .album-data h3 {
+    text-align: center;
+  }
+  .gray-block aside {
+    display: none;
+  }
+  .featured-album {
+    height: 500px;
+    text-align: center;
+  }
+  .featured-album .button {
+    width: 15%;
+    margin: 2% 0 0 82%;
+  }
+}

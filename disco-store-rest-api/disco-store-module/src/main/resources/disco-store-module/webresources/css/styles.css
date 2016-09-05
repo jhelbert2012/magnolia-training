@@ -1,0 +1,50 @@
+@import url('home.css');
+
+@import url('featured.css');
+
+@import url('other-albums.css');
+
+@import url('contact-us.css');
+
+@import url('disc.css');
+
+@import url('cv-form.css');
+/* 
+    Document   : styles
+    Created on : 8/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for project Disco Store
+*/
+/*General styles*/
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* wrappers */
+.main-wrapper {
+  background: url("../img/bg-main.png") repeat scroll center top transparent;
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+/*Clases*/
+.center {
+  margin: 0 auto;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}

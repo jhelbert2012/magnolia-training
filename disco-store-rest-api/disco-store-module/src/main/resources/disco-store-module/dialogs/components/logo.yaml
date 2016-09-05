@@ -1,0 +1,16 @@
+form:
+  tabs:
+    - name: tabLogo
+      label: Tab Logo
+      fields:
+        - name: logo
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Disco Store Logo
+          appName: assets
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

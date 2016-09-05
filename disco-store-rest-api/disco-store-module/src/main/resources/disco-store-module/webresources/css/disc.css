@@ -1,0 +1,94 @@
+.center {
+  margin: 0 auto;
+}
+.general-margin {
+  margin: 0 3.125%;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+/* 
+    Document   : featured
+    Created on : 8/02/2013, 09:23:24 AM
+    Author     : Daniel Ortega
+    Description:
+        General style sheet for Featured Album Block - Disco Store
+*/
+/* General styles */
+html {
+  font-size: 14px;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.disc-internal {
+  height: 510px;
+}
+.disc-internal .featured-description {
+  height: 330px;
+}
+.disc-internal .button {
+  background: url('../img/rectangular-button.png') no-repeat center center transparent;
+  background-size: 100%;
+  color: #ffffff;
+  display: block;
+  font-size: 0.85714286em;
+  height: 37px;
+  line-height: 37px;
+  margin: 5% 0 0;
+  text-align: center;
+  text-decoration: none;
+  width: 51.226994%;
+}
+.disc-internal aside {
+  height: 364px;
+}
+.list-albums.internal {
+  border: none;
+}
+.list-albums.internal h2 {
+  text-transform: none;
+}
+@media only screen and (min-width: 491px) and (max-width: 768px) {
+  .disc-internal {
+    height: 600px;
+  }
+  .disc-internal article img {
+    width: 40%;
+  }
+  .disc-internal article .album-data {
+    width: 57%;
+  }
+  .disc-internal article .album-data .featured-description {
+    height: 185px;
+    overflow: auto;
+  }
+  .disc-internal .button {
+    width: 25%;
+    margin: 2% 0 0 72%;
+  }
+  .disc-internal aside {
+    height: 200px;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .disc-internal {
+    height: 500px;
+    text-align: center;
+  }
+  .disc-internal article .album-data .featured-description {
+    height: 125px;
+    overflow: auto;
+  }
+  .disc-internal .button {
+    width: 25%;
+    margin: 2% 0 0 72%;
+  }
+}
