@@ -14,7 +14,7 @@ The Disco Store project uses Maven for building. In order to build the project, 
 
 mvn clean install
 
-The command downloads the libraries and modules needed to start a Community Edition from Magnolia CMS 5.4.3. It takes some time to 
+The command downloads the libraries and modules needed to start a Community Edition from Magnolia CMS 5.4.6. It takes some time to 
 download all the libraries, so, be patient :). If everything is OK and you get "Build Success" in your console after running the Maven 
 command, please go to "disco-store-webapp/target" folder and copy the "disco-store.war" file. Go to your Tomcat installation directory,
 "webapps" folder and paste the war file.
