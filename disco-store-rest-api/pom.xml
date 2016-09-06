@@ -51,9 +51,38 @@
         <version>4.11</version>
         <scope>test</scope>
       </dependency>
+      
+        <!-- Solr -->
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+            <version>5.4.1</version>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20090211</version>
+        </dependency>
+      
     </dependencies>
   </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>info.magnolia.rest</groupId>
+            <artifactId>magnolia-rest-services</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.rest</groupId>
+            <artifactId>magnolia-rest-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.rest</groupId>
+            <artifactId>magnolia-rest-tools</artifactId>
+        </dependency>
+    </dependencies>
 
   <build>
 	<finalName>disco-store</finalName>
@@ -114,5 +143,6 @@
   <modules>
     <module>disco-store-webapp</module>
     <module>disco-store-module</module>
+    <module>disco-store-module-search</module>
   </modules>
 </project>
