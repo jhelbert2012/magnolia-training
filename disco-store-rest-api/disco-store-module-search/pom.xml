@@ -11,7 +11,7 @@
     <artifactId>disco-store-module-search</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Disco Store Search Module Magnolia Module</name>
+    <name>disco-store-module-search</name>
     <!-- <description>Please uncomment and fill in ...</description> -->
     <properties>
         <magnoliaVersion>5.4.6</magnoliaVersion>
@@ -58,6 +58,7 @@
         <dependency>
             <groupId>info.magnolia</groupId>
             <artifactId>magnolia-module-standard-templating-kit</artifactId>
+            <version>2.9.5</version>
         </dependency>
         
         <!-- scheduler module -->

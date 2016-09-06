@@ -1,4 +1,4 @@
-window.com_globant_magnolia_ui_SearchJs = function() {
+window.com_globant_discostore_search_ui_SearchJs = function() {
   var element = $(this.getElement());
   var self = this;
 

@@ -14,13 +14,13 @@ import elemental.json.JsonArray;
 import info.magnolia.objectfactory.Components;
 
 @JavaScript({ 
-    "magnolia-tutorial-search/view/js/search.js", 
-    "magnolia-tutorial-search/view/js/search_connector.js",
-    "magnolia-tutorial-search/view/js/jquery.js",
-    "magnolia-tutorial-search/view/js/bootstrap.min.js" 
+    "disco-store-module-search/view/js/search.js", 
+    "disco-store-module-search/view/js/search_connector.js",
+    "disco-store-module-search/view/js/jquery.js",
+    "disco-store-module-search/view/js/bootstrap.min.js" 
 })
 @StyleSheet({
-    "magnolia-tutorial-search/view/css/bootstrap.min.css" 
+    "disco-store-module-search/view/css/bootstrap.min.css" 
 })
 public class SearchJs extends AbstractJavaScriptComponent {
 

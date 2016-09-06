@@ -156,6 +156,11 @@
       <type>war</type>
     </dependency>
     -->
+    
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-module-legacy-admininterface</artifactId>
+    </dependency>
 
   </dependencies>
 

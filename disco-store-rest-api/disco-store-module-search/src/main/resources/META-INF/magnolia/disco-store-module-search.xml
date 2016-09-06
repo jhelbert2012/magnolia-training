@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE module SYSTEM "module.dtd" >
 <module>
-    <name>Disco Store Search Module</name>
+    <name>disco-store-module-search</name>
     <displayName>${project.name}</displayName>
     <description>${project.description}</description>
     <class>com.globant.discostore.SearchModule</class>

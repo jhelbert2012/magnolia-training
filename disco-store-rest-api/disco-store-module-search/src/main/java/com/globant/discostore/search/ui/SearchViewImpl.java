@@ -40,7 +40,7 @@ public class SearchViewImpl implements SearchView {
             // Load the HTML. Dont to this in a real app. This was just done to
             // keep things simple
             InputStream in = this.getClass().getClassLoader()
-                    .getResourceAsStream("com/globant/magnolia/ui/magnolia-tutorial-search/app/html/search.html");
+                    .getResourceAsStream("com/globant/discostore/search/ui/disco-store-module-search/app/html/search.html");
             byte[] bytes = IOUtils.toByteArray(in);
             layout = new CustomLayout(new ByteArrayInputStream(bytes));
             layout.setWidth("100%");
