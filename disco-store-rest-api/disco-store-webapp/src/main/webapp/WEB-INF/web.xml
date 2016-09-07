@@ -56,4 +56,12 @@
     <error-code>404</error-code>
     <location>/docroot/404.html</location>
   </error-page>
+    <error-page>
+    <error-code>500</error-code>
+    <location>/docroot/500.html</location>
+  </error-page>
+    <error-page>
+    <error-code>302</error-code>
+    <location>/docroot/302.html</location>
+  </error-page>
 </web-app>
