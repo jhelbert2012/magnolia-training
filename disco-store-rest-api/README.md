@@ -34,19 +34,51 @@ or press Enter. The app launcher is displayed. You can Go to "Pages" app and sta
 If you have a problem starting a Disco Store project in http://localhost:8080/disco-store, please remove your .m2 folder (Maven dependencies
 folder) and run "mvn clean install" again.
 
-DOCKER
+# DOCKER #
+
 Docker Hub: https://hub.docker.com/r/jhelbert/discostore/
-Build the image
+
+Build the image 
+
+```
+#!bash
+
 docker build -t jhelbert/discostore .
+```
+
 Run the container
+
+
+```
+#!bash
+
 docker run -p 8080:8080 jhelbert/discostore
+```
+
+
 Logs:
+```
+#!bash
+
 docker exec -it {container_id} tail -f /usr/local/tomcat/webapps/ROOT/logs/magnolia-error.log
 docker exec -it {container_id} tail -f /usr/local/tomcat/webapps/ROOT/logs/magnolia-debug.log
+```
+
 MySQL Connector
+
+
+```
+#!bash
+
 docker run -e MYSQL_ROOT_PASSWORD=root -d -p 3306:3306 mysql:latest
-Environments
+```
+
+
+### Environments ###
+
 http://discostore-dev.us-west-2.elasticbeanstalk.com
+
 http://discostore-qa.us-west-2.elasticbeanstalk.com
+
 
 Enjoy your time testing Magnolia CMS!! ;)
