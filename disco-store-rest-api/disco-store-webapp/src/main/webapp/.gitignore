@@ -1,5 +1,5 @@
 /cache/
-/docroot/
+#/docroot/
 /logs/
 /META-INF/
 /repositories/
