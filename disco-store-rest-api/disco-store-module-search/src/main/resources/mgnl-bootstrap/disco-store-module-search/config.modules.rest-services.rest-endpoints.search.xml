@@ -12,12 +12,10 @@
         <sv:value>cfef5811-0238-4553-b625-cecf3be69859</sv:value>
     </sv:property>
     <sv:property sv:name="class" sv:type="String">
-        <sv:value>com.globant.discostore.search.resources.ConfiguredFirstServiceEndpointDefinition
-        </sv:value>
+        <sv:value>com.globant.discostore.search.resources.ConfiguredFirstServiceEndpointDefinition</sv:value>
     </sv:property>
     <sv:property sv:name="implementationClass" sv:type="String">
-        <sv:value>com.globant.discostore.search.resources.SearchServiceEndpoint
-        </sv:value>
+        <sv:value>com.globant.discostore.search.resources.SearchServiceEndpoint</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>

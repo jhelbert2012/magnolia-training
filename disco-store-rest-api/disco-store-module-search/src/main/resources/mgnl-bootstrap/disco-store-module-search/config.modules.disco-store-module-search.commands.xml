@@ -49,8 +49,7 @@
                 <sv:value>mgnl:contentNode</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
-                <sv:value>e3550cdb-0861-469d-81ae-07ded0b3c45c
-                </sv:value>
+                <sv:value>e3550cdb-0861-469d-81ae-07ded0b3c45d</sv:value>
             </sv:property>
             <sv:property sv:name="class" sv:type="String">
                 <sv:value>com.globant.discostore.search.index.BasicSiteIndexCommand</sv:value>

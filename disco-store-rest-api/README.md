@@ -34,4 +34,26 @@ or press Enter. The app launcher is displayed. You can Go to "Pages" app and sta
 If you have a problem starting a Disco Store project in http://localhost:8080/disco-store, please remove your .m2 folder (Maven dependencies
 folder) and run "mvn clean install" again.
 
+DISCO STORE SEARCH MODULE
+
+This module provides an overview of some of the key Magnolia features, such as:
+* Rest Module
+* Schedule Module
+* Custom commands
+* Vaadin integration
+
+Beeing a disco-store submodule, the disco-store-module-search module is installed with the webapp module (mvn dependency),
+so no aditional configuration is required.
+Bootstrap configuration files are included in the resources path, and some of them are referenced in the VersionHandler
+in order to have the last version each time the module is deployed (change default behaviour).
+
+Config files:
+src/main/resources/mgnl-bootstrap/disco-store-module-search
+* config.modules.disco-store-module-search.apps.xml (vaadin search app definition)
+* config.modules.disco-store-module-search.commands.xml (custom command refinition)
+* config.modules.rest-services.rest-endpoints.search.xml (rest api definition)
+* config.modules.rest-tools.config.xml (apiBaseRoot customization)
+* config.modules.scheduler.config.jobs.mgnltrnng.xml (chron job executing our custom command)
+* config.modules.ui-admincentral.config.appLauncherLayout.groups.edit.apps.disco-store-module-search.xml (menu entry definition)
+
 Enjoy your time testing Magnolia CMS!! ;)
