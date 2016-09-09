@@ -7,7 +7,7 @@ searchApp.controller("searchController", [
       $scope.resultItems = [];
 
       var SearchEndpoint = $resource(
-          '/magnolia-tutorial-webapp/.rest/search/v1', {
+          '/disco-store/.rest/search/v1', {
             query : '@query'
           });
 
