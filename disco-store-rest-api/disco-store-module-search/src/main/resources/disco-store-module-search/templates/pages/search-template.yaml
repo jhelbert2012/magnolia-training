@@ -1,5 +1,5 @@
 templateScript: /disco-store-module-search/templates/pages/search-template.ftl
 renderType: freemarker
 visible: true
-title: Mgnl Tutorial - Search Template
+title: Disco Store - Search Template
 dialog: disco-store-module-search:pages/search-template-properties

@@ -20,7 +20,7 @@ package com.globant.discostore.search.setup.tasks;
 
 import info.magnolia.module.InstallContext;
 import info.magnolia.module.delta.BootstrapResourcesTask;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

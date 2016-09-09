@@ -55,11 +55,13 @@
             <artifactId>magnolia-ui-vaadin-common-widgets</artifactId>
         </dependency>
         
+        <!-- 
         <dependency>
             <groupId>info.magnolia</groupId>
             <artifactId>magnolia-module-standard-templating-kit</artifactId>
             <version>2.9.5</version>
         </dependency>
+        -->
         
         <!-- scheduler module -->
         <dependency>

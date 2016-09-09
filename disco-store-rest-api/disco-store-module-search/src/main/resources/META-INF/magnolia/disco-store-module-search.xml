@@ -18,10 +18,12 @@
             <type>com.globant.discostore.search.services.SolrClientFactory</type>
             <implementation>com.globant.discostore.search.services.impl.SolrClientFactoryImpl</implementation>
         </component>
+        <!-- 
         <component>
             <type>com.globant.discostore.search.ui.SearchView</type>
             <implementation>com.globant.discostore.search.ui.SearchViewImpl</implementation>
         </component>
+        -->
     </components>
 
     <dependencies>

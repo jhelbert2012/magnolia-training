@@ -5,3 +5,13 @@ body {
     color: #ffff99;
     font-family: Verdana;
 }
+
+h1{
+    font-family: Helvetica;
+}
+
+div.container{
+    margin:25px;
+    padding:25px;
+    background-color: dimgray;
+}

@@ -17,7 +17,7 @@
    <h1>${title}</h1>
   </header>
 
-  <div class="container" ng-controller="searchController">
+  <div ng-controller="searchController">
    <div class="row">
     <div class="col-md-12">
      <form>
@@ -50,13 +50,13 @@
  </div>
 </body>
 <script type="text/javascript"
- src="${ctx.contextPath}/.resources/magnolia-tutorial-search/webresources/js/jquery.js"></script>
+ src="${ctx.contextPath}/.resources/disco-store-module-search/webresources/js/jquery.js"></script>
 <script type="text/javascript"
- src="${ctx.contextPath}/.resources/magnolia-tutorial-search/webresources/js/angular.min.js"></script>
+ src="${ctx.contextPath}/.resources/disco-store-module-search/webresources/js/angular.min.js"></script>
  <script type="text/javascript"
- src="${ctx.contextPath}/.resources/magnolia-tutorial-search/webresources/js/angular-resource.js"></script>
+ src="${ctx.contextPath}/.resources/disco-store-module-search/webresources/js/angular-resource.js"></script>
 <script type="text/javascript"
- src="${ctx.contextPath}/.resources/magnolia-tutorial-search/webresources/js/bootstrap.min.js"></script>
+ src="${ctx.contextPath}/.resources/disco-store-module-search/webresources/js/bootstrap.min.js"></script>
 <script type="text/javascript"
- src="${ctx.contextPath}/.resources/magnolia-tutorial-search/webresources/js/app.js"></script>
+ src="${ctx.contextPath}/.resources/disco-store-module-search/webresources/js/app.js"></script>
 </html>
