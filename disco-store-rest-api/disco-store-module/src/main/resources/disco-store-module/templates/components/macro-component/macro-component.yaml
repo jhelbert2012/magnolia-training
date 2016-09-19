@@ -1,0 +1,4 @@
+templateScript: /disco-store-module/templates/components/macro-component/macro-component.ftl
+renderType: freemarker
+dialog: disco-store-module:components/macro-component
+title: Disco Store - Macro component

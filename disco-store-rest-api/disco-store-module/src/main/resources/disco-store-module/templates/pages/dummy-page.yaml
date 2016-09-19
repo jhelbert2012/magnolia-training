@@ -8,3 +8,5 @@ areas:
     availableComponents:
       dummy-component:
         id: disco-store-module:components/dummy-component
+      macro-component:
+        id: disco-store-module:components/macro-component/macro-component

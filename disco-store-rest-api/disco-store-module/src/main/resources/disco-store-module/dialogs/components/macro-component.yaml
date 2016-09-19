@@ -1,0 +1,24 @@
+form:
+  tabs:
+    - name: tabMain
+      label: Settings
+      fields:
+        - name: macro
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Macro
+          options:
+            - name: macroOne
+              value: macroOne
+              selected: true
+              label: Macro One
+            - name: macroTwo
+              value: macroTwo
+              label: Macro Two
+            - name: macroThree
+              value: macroThree
+              label: Macro Three
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
