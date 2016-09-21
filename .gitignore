@@ -14,10 +14,8 @@ hs_err_pid*
 disco-store-rest-api/.project
 disco-store-rest-api/.settings/
 disco-store-rest-api/disco-store-module/.classpath
-disco-store-rest-api/disco-store-module/.gitignore
 disco-store-rest-api/disco-store-module/.project
 disco-store-rest-api/disco-store-module/.settings/
 disco-store-rest-api/disco-store-webapp/.classpath
-disco-store-rest-api/disco-store-webapp/.gitignore
 disco-store-rest-api/disco-store-webapp/.project
 disco-store-rest-api/disco-store-webapp/.settings/

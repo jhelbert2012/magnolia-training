@@ -12,11 +12,15 @@
         <id>main</id> <!-- Container ID -->
         <component>
             <type>com.globant.discostore.search.services.SearchService</type>
-            <implementation>com.globant.discostore.search.services.impl.SearchServiceImpl</implementation>
+            <implementation>com.globant.discostore.search.services.impl.ElasticSearchSearchServiceImpl</implementation>
         </component>
         <component>
             <type>com.globant.discostore.search.services.SolrClientFactory</type>
             <implementation>com.globant.discostore.search.services.impl.SolrClientFactoryImpl</implementation>
+        </component>
+        <component>
+            <type>com.globant.discostore.search.services.ElasticSearchClientFactory</type>
+            <implementation>com.globant.discostore.search.services.impl.ElasticSearchClientFactoryImpl</implementation>
         </component>
         <component>
             <type>com.globant.discostore.search.ui.SearchView</type>
